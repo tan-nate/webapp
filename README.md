@@ -43,8 +43,8 @@ Weekly Monday meetups at the Santa Monica Hack for LA hack night will be the pri
 You only have to do this once.
 
 - ask in the slack channel for the project secrets
-- add a `.env` file to the project root directory
-- paste the secrets into the `.env` file
+- add a file named `webapp.env` to the project root directory
+- paste the secrets into the `webapp.env` file
 - generate assets with webpack
   ```
   $ npm run build
